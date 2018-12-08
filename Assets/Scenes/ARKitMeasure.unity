@@ -285,50 +285,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &260521679
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 260521681}
-  - component: {fileID: 260521680}
-  m_Layer: 0
-  m_Name: PointCloudParticleExample
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &260521680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 260521679}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec20d460fbb7e4f92b4d84a10da98cd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointCloudParticlePrefab: {fileID: 198314236125653888, guid: 87db9decf4b3e4cb8bf3eea22ccd37f5,
-    type: 2}
-  maxPointsToShow: 10000
-  particleSize: 0.01
---- !u!4 &260521681
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 260521679}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &316406549 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1870724003826386, guid: 627d59de3f7744074b4d549a5a3c6e5a,
@@ -394,7 +350,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &359599245
 GameObject:
@@ -423,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31cac8edf84834043ac167deaeba16a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planePrefab: {fileID: 1372998203143648, guid: f879aaf3eeb0c467eb22cbaf08dc97a4,
+  planePrefab: {fileID: 1969917811280498, guid: c43d5daa7dcc245f6be9e0fd57da9ee4,
     type: 2}
 --- !u!4 &359599247
 Transform:
@@ -727,7 +683,7 @@ RectTransform:
   - {fileID: 617964040}
   - {fileID: 1289356475}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -921,32 +877,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4816730670411002, guid: 627d59de3f7744074b4d549a5a3c6e5a, type: 2}
       propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 23759774213456350, guid: 627d59de3f7744074b4d549a5a3c6e5a,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 156df500557f84f7186079e7b857cd8a, type: 2}
-    - target: {fileID: 4816730670411002, guid: 627d59de3f7744074b4d549a5a3c6e5a, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.014047224
-      objectReference: {fileID: 0}
-    - target: {fileID: 4816730670411002, guid: 627d59de3f7744074b4d549a5a3c6e5a, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.014047224
-      objectReference: {fileID: 0}
-    - target: {fileID: 4816730670411002, guid: 627d59de3f7744074b4d549a5a3c6e5a, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.014047224
-      objectReference: {fileID: 0}
-    - target: {fileID: 1661640133718402, guid: 627d59de3f7744074b4d549a5a3c6e5a, type: 2}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1870724003826386, guid: 627d59de3f7744074b4d549a5a3c6e5a, type: 2}
-      propertyPath: m_Layer
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627d59de3f7744074b4d549a5a3c6e5a, type: 2}
